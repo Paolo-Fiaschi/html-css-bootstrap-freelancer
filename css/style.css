@@ -8,14 +8,20 @@
 
 /* HEADER -----------------------------------------*/
 header nav{
-  background-color: #2C3E50;
+  background: #2C3E50!important;
   height: 100px;
+  border-bottom: none!important;
+}
+header a,
+header a:link,
+header a:visited{
+  color: white;
+}
+header a:hover{
+  text-decoration: none;
 }
 nav h3{
   padding-top: 20px;
-}
-nav ul{
-  /* display: inline-block; */
 }
 nav ul li{
   display: inline-block;
@@ -35,5 +41,19 @@ h1{
   font-weight: bolder;
 }
 .jumbotron span{
+  margin: 0 5px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+.linea{
+  border: 2px solid white;
+  display: inline-block;
+  width: 100px;
+  border-radius: 5px;
+  vertical-align: middle;
+
+}
+.jumbotron p{
+  margin-top: 26px;
   font-size: 22px;
 }
