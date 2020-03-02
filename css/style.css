@@ -158,3 +158,41 @@ textarea{
 form:first-child{
   padding-top: 45px;
 }
+/* FOOTER --------------------------------------------*/
+/* main footer ---------------------------*/
+.main-footer{
+  background: #2C3E50;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.location,
+.web,
+.freelancer{
+  float: left;
+  width: 33%;
+}
+.main-footer h3{
+  font-size: 29px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+.main-footer p{
+  font-size: 19px;
+  padding-top: 18px;
+  text-align: center;
+}
+.main-footer span{
+  color: #1ABC9C;
+}
+/* copyright -----------------------------*/
+.copyright{
+  background: #1A252F;
+  color: white;
+  /* height: 50px; */
+  text-align: center;
+}
+.copyright span{
+  padding: 30px;
+  display: inline-block;
+}
