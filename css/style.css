@@ -100,6 +100,9 @@ h2{
   padding: 20px;
   font-size: 19px;
 }
+.widht{
+  width: 70%;
+}
 .about button{
   background: #1ABC9C;
   color: white;
@@ -170,10 +173,10 @@ form:first-child{
 .web,
 .freelancer{
   float: left;
-  width: 33%;
+  width: 27%;
 }
 .main-footer h3{
-  font-size: 29px;
+  font-size: 27px;
   font-weight: bolder;
   padding-top: 50px;
 }
